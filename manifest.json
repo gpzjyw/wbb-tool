@@ -1,0 +1,20 @@
+{
+  "name": "WC-Tool",
+  "description": "some tool for wbb",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "64": "/images/get_started128.png"
+    }
+  },
+  "icons": {
+    "64": "/images/get_started128.png"
+  },
+  "options_page": "options.html",
+  "content_scripts": [{
+    "matches": ["https://gzxkc.zgjiaoyan.com/grain/course/*"],
+    "js": ["contentScript.js"]
+  }]
+}
