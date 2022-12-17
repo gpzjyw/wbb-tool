@@ -13,8 +13,14 @@
     "64": "/images/get_started128.png"
   },
   "options_page": "options.html",
-  "content_scripts": [{
-    "matches": ["https://gzxkc.zgjiaoyan.com/grain/course/*"],
-    "js": ["contentScript.js"]
-  }]
+  "content_scripts": [
+    {
+      "matches": ["https://gzxkc.zgjiaoyan.com/grain/course/*"],
+      "js": ["contentScript.js"]
+    },
+    {
+      "matches": ["http://pn202233080.stu.teacher.com.cn/course/*"],
+      "js": ["contentScript2.js"]
+    }
+  ]
 }
