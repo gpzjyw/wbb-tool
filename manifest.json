@@ -21,6 +21,10 @@
     {
       "matches": ["http://pn202233080.stu.teacher.com.cn/course/*"],
       "js": ["contentScript2.js"]
+    },
+    {
+      "matches": ["http://pn202233080.stu.teacher.com.cn/studyPlan/*"],
+      "js": ["contentScript3.js"]
     }
   ]
 }
